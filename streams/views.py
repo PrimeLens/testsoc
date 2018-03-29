@@ -13,8 +13,8 @@ from streams.models import Post
 
 
 def index(request):
-  posts = Post.objects.all()
-  return render(request, 'index.html', {
-    'posts': posts,     # note here var name is plural
-  })
+    posts = Post.objects.all()
+    return render(request, 'index.html', {
+        'posts': posts,     # note here var name is plural
+    })
 
