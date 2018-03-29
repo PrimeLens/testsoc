@@ -1,0 +1,18 @@
+
+
+Working example from step 1
+1) Project was initialized as 'testsoc'
+2) An app called 'streams' was created inside the project
+Here is a list of path/files that were then edited
+
+testsoc/testsoc/settings.py
+testsoc/testsoc/urls.py
+testsoc/streams/views.py
+testsoc/streams/models.py
+testsoc/streams/admin.py
+testsoc/streams/templates/index.html
+
+
+Working example from step 2 adding Django Rest Framework
+testsoc/testsoc/settings.py
+testsoc/streams/serializers.py
